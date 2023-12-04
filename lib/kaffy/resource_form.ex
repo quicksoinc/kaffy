@@ -354,7 +354,7 @@ defmodule Kaffy.ResourceForm do
 
             content_tag :div, class: "input-group" do
               [
-                number_input(form, field,
+                text_input(form, field,
                   class: "form-control",
                   id: field,
                   disabled: opts[:readonly],
